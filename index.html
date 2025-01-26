@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="manifest" href="manifest.json">
+    <title>Lista de Mercado Miriam</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main-screen">
+            <h1>Lista de Mercado<br>Miriam</h1>
+            <button id="createListBtn" class="btn-primary">Criar Lista de Compras</button>
+        </div>
+        
+        <div class="products-screen" style="display: none;">
+            <h2>Lista de Produtos</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar produtos...">
+            </div>
+            <!-- Container que será preenchido dinamicamente pelo JavaScript -->
+            <div class="products-list"></div>
+            
+            <div class="selected-items">
+                <h3>Itens Selecionados (<span id="selectedCount">0</span>)</h3>
+                <ul id="selectedList"></ul>
+                <div class="buttons-container">
+                    <button id="backBtn" class="btn-secondary">Voltar</button>
+                    <button id="generatePdfBtn" class="btn-primary">Gerar PDF</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
