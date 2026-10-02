@@ -1,0 +1,21 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Signing material (never commit keys)
+*.jks
+*.keystore
+
+# Android Studio output
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keep generated databases, media and exports out of Git
+*.db
+*.db-shm
+*.db-wal
+AutoVideoAI/

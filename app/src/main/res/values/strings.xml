@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoVideo AI</string>
+    <string name="notification_channel_processing">Processamento AutoVideo AI</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.AutoVideoAI" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#A78BFA</item>
+        <item name="android:statusBarColor">#090B14</item>
+        <item name="android:navigationBarColor">#090B14</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#090B14</item>
+    </style>
+</resources>
